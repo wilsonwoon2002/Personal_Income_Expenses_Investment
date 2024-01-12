@@ -1,8 +1,10 @@
 import uuid
 
+
 def generate_transaction_id():
     transaction_id = uuid.uuid4()
     return str(transaction_id)
+
 
 # Example usage
 transactions_without_id = 7

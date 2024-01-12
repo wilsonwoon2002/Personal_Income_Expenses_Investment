@@ -43,6 +43,7 @@ copyright_label.pack()
 version_label = tk.Label(root, text="Version 2.0")
 version_label.pack()
 
+
 # Define the functions for remaining menu buttons (apartment expenses, salary, investment income)
 def apartment_expenses():
     # Implement your code for handling apartment expenses

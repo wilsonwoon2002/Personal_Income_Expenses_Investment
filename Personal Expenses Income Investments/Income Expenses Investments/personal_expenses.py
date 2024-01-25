@@ -306,6 +306,7 @@ category_entry = ttk.Combobox(window, textvariable=category_var, values=['Food',
 category_entry.grid(row=1, column=1, padx=5, pady=5)
 category_entry.bind("<<ComboboxSelected>>", on_category_selected)
 
+
 # Payment mode input
 payment_label = ttk.Label(window, text='Payment Mode', anchor='e')
 payment_label.grid(row=2, column=0, padx=5, pady=5, sticky='e')

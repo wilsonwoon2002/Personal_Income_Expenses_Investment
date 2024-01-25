@@ -7,7 +7,7 @@ def generate_transaction_id():
 
 
 # Example usage
-transactions_without_id = 7
+transactions_without_id = 2
 transaction_ids = []
 
 for _ in range(transactions_without_id):

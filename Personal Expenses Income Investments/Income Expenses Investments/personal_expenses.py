@@ -301,7 +301,8 @@ category_entry = ttk.Combobox(window, textvariable=category_var, values=['Food',
                                                                          'Toiletries', 'Software', 'Gift', 'Repair & Maintenance',
                                                                          'Takeaway Fees', 'Sports & Leisure', 'Stationary & Printing',
                                                                          'Clothing & Fashion', 'Delivery Fees', 'Misc. Fees',
-                                                                         'Holiday & Travel', 'Computer & Electronics', 'Allowance for Parents'])
+                                                                         'Holiday & Travel', 'Computer & Electronics', 'Allowance for Parents',
+                                                                         'Income Tax'])
 category_entry.grid(row=1, column=1, padx=5, pady=5)
 category_entry.bind("<<ComboboxSelected>>", on_category_selected)
 
